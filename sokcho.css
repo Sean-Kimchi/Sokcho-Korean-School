@@ -1,0 +1,126 @@
+#title {
+  font-size: 50px;
+  text-shadow: 3px 3px #41a6ff;
+  text-align: center;
+}
+#title a {
+  font-size: 50px;
+  text-decoration: none;
+  text-align:center;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: rgba(196, 255, 246, 0.586);
+}
+
+#header {
+  background-color:#6afdff7b;
+  text-align: center;
+  border: 5px double #11bdfc7b;
+  margin: -8px -7px 0px -7px;
+  padding-top: 5px;
+}
+
+
+#navbar {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#navbar a {
+ text-decoration: none;
+ font-size: 16 px;
+ color: rgb(0, 0, 0);
+ font-style: bold;
+}
+#navbar li {
+ list-style-type: none;
+ border: 2px solid rgb(255, 253, 209);
+ border-radius: 30px;
+ padding: 10px;
+ background-color: rgb(181, 255, 240);
+ box-shadow: 3px 3px #006692;
+ width: 75px;
+}
+#navbar li:hover {
+ background-color: #72abff;
+}
+
+#home:hover {
+  background-color: #72abff;
+}
+
+#home_img1 {
+  height:50px;
+  width:50px;
+}
+
+#home_img2 {
+  height:50px;
+  width:50px;
+}
+
+#KoreanAir {
+  height: 1500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+}
+
+#flight_img-txt_top1 {
+  font-size:30px;
+  position: absolute;
+  bottom: -15%;
+  right: 5%;
+  color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#flight_img-txt_top2 {
+  font-size:30px;
+  position: absolute;
+  bottom: -40%;
+  right: 46%;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#flight_img-txt_bottom {
+  font-size:50px;
+  position: absolute;
+  bottom: -110%;
+  right: 6.5%;
+  color: rgb(255, 237, 136);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#flight_img-play {
+  position: absolute;
+  bottom: -145%;
+  right: 33%
+}
+
+.info {
+  font-size:40px;
+  text-align: center;
+  color:#0084bd;
+}
+
+.pictures {
+  border-radius: 30px;
+  width: 600px;
+  height: 550px;
+  border: 2px solid yellow;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
